@@ -47,6 +47,7 @@ export default createStore({
       const response = await signInWithEmailAndPassword(auth, email, password);
       if (response) {
         context.commit("SET_USER", response.user);
+        localStorage.setItem('user', JSON.stringify(response.user))
       } else {
         throw new Error("login failed");
       }

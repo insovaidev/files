@@ -44,3 +44,4 @@ export const useAuthState = () => {
 
   return { user, error, isAuthenticated }
 }
+

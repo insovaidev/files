@@ -27,7 +27,7 @@
           <span class="sr-only">Open user menu</span>
           <img
             class="w-8 h-8 rounded-full"
-            src="/docs/images/people/profile-picture-3.jpg"
+            src="https://res.cloudinary.com/sertertwert/image/upload/v1674135865/photo_2023-01-19_20-44-05_gpz4rd.jpg"
             alt="user photo"
           />
         </button>
